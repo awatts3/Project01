@@ -23,6 +23,6 @@ Inputing D should display the day's sumary, input of W should display the Week s
 
 other:
 
-Must be able to deal with overflow in the sum of all values, considering that a lethal bloodsugar level is about 550 (mg/dL), the world record for button pressing is about 8 presses per second and that the user must input values manualy: if the user was to maintain a bloodsugar level of 600 for two weeks straight and take a reading ten times per second that absolute maximum sum we would need to store would be 7.2576*10^9. so our sum should be able to handle up to that number. Being able to store a larger number would be pointless as the user is very very dead at this point. 
+Must be able to deal with overflow in the sum of all values, considering that a lethal bloodsugar level is about 550 (mg/dL), the world record for button pressing is about 8 presses per second and that the user must input values manualy: if the user was to maintain a bloodsugar level of 600 for two weeks straight and take a reading ten times per second that absolute maximum sum we would need to store would be 7.2576*10^9. so our sum should be able to handle up to that number. Being able to store a larger number would be pointless as the user is very very dead at this point.The double data type can store a significantly larger value  than that maximum so there is no real point to worrying about overflow for the sake of this project. 
 
 I'll be using the linked list and node classes from lab02
